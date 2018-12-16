@@ -1,0 +1,5 @@
+[0722/184903.958:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: Podjêto próbê uzyskania dostêpu do procesu koñcz¹cego dzia³anie. (0xc000010a)
+[0722/184904.131:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::RTL_USER_PROCESS_PARAMETERS<crashpad::process_types::internal::Traits32>]: Ukoñczono tylko czêœæ ¿¹dania ReadProcessMemory lub WriteProcessMemory. (0x12B)
+[0722/184904.132:ERROR:process_info.cc(545)] ReadProcessData failed
+[0722/184904.140:ERROR:process_reader_win.cc(151)] SuspendThread: Odmowa dostêpu. (0x5)
+[0722/184904.140:ERROR:exception_snapshot_win.cc(88)] thread ID 0 not found in process
